@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/ODM2/ODM2PythonAPI/archive/v{{ version }}.tar.gz
-  sha256: ea0106fa200ef3fd0ce307a92fb42ad3b79e79b70c1e41156f90c6c2c59eb5ea
+  sha256: d4c02200b904fd35447561becf0fa92d24afe6507bd50a09db57662e187e450a
 
 build:
   number: 1000
   skip: True  # [py3k]
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
 requirements:
   build:
