@@ -3,7 +3,7 @@ About odm2api
 
 Home: https://github.com/ODM2/ODM2PythonAPI
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
