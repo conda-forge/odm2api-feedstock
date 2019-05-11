@@ -1,4 +1,4 @@
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 
 package:
   name: odm2api
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/ODM2/ODM2PythonAPI/archive/v{{ version }}.tar.gz
-  sha256: d4c02200b904fd35447561becf0fa92d24afe6507bd50a09db57662e187e450a
+  sha256: 8f51dd4fff84f581905fdd1745808d3483f6c888d1aca10fbbeef4babd8f8aa6
 
 build:
-  number: 1000
+  number: 0
   skip: True  # [py3k]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
