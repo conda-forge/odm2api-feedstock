@@ -9,7 +9,7 @@ source:
   sha256: 8f51dd4fff84f581905fdd1745808d3483f6c888d1aca10fbbeef4babd8f8aa6
 
 build:
-  number: 0
+  number: 1
   skip: True  # [py3k]
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
